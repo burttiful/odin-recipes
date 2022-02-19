@@ -1,5 +1,9 @@
 /* styles.css */
 
+* {
+  box-sizing: border-box;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -10,6 +14,7 @@ img {
 .logo {
   width: 300px;
   height: 300px;
+  border: 2px solid gray;
 }
 
 .page-title {
@@ -21,8 +26,15 @@ img {
   color: white;
   background-color: black;
   font-weight: bold;
+  padding: 10px;
+  border: 2px solid grey;
 }
 
 #black-bar {
   color: black;
+}
+
+.nav-list {
+  height: 40px;
+  width: 150px;
 }
